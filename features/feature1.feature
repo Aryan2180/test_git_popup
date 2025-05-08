@@ -4,5 +4,5 @@ Feature: feature1
     Given login with "<username>" and "<password>"
 
     Examples:
-      | username   | password | item                               |
-      | blinq_user | {{data}} | Urban Backpack - Compact & Durable |
+      | username   | password |
+      | blinq_user | {{data}} |
