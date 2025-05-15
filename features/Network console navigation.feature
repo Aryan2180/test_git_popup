@@ -1,5 +1,6 @@
 Feature: Network console navigation
 
+  @sertyu
   Scenario: Navigate and view test string details
 	# click on Network & Console
     When The user navigates to Network and Console page
