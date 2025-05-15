@@ -1,0 +1,80 @@
+{
+  "link_network_console": {
+    "basic": [
+      {
+        "score": 143,
+        "css": "internal:role=link[name=\"Network & Console\"i]",
+        "priority": 1
+      },
+      {
+        "score": 148,
+        "css": "internal:role=link[name=\"Network & Console\"s]",
+        "priority": 1
+      },
+      {
+        "score": 182,
+        "css": "internal:text=\"Network & Console\"i",
+        "priority": 1
+      },
+      {
+        "score": 187,
+        "css": "internal:text=\"Network & Console\"s",
+        "priority": 1
+      },
+      {
+        "score": 356,
+        "css": "a >> internal:has-text=\"Network & Console\"i",
+        "priority": 1
+      },
+      {
+        "score": 391,
+        "css": "a >> internal:has-text=/^Network & Console$/",
+        "priority": 1
+      }
+    ],
+    "no_text": [
+      {
+        "css": "[href='\\/networkAndConsole']"
+      },
+      {
+        "css": "body > ul:nth-child(5) > li:nth-child(11) > a"
+      }
+    ],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  },
+  "link_form_input_interaction": {
+    "basic": [
+      {
+        "score": 143,
+        "css": "internal:role=link[name=\"{form_and_input_interaction_text}\"i]",
+        "priority": 1
+      },
+      {
+        "score": 148,
+        "css": "internal:role=link[name=\"{form_and_input_interaction_text}\"s]",
+        "priority": 1
+      },
+      {
+        "score": 182,
+        "css": "internal:text=\"{form_and_input_interaction_text}\"i",
+        "priority": 1
+      },
+      {
+        "score": 187,
+        "css": "internal:text=\"{form_and_input_interaction_text}\"s",
+        "priority": 1
+      },
+      {
+        "score": 356,
+        "css": "a >> internal:has-text=\"{form_and_input_interaction_text}\"i",
+        "priority": 1
+      }
+    ],
+    "no_text": [],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  }
+}

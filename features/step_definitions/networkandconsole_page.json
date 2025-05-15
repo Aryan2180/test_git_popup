@@ -1,0 +1,92 @@
+{
+  "link_test_string_15": {
+    "basic": [
+      {
+        "score": 142,
+        "css": "internal:role=link[name=\"Test String 15\"i]",
+        "priority": 1
+      },
+      {
+        "score": 147,
+        "css": "internal:role=link[name=\"Test String 15\"s]",
+        "priority": 1
+      },
+      {
+        "score": 181,
+        "css": "internal:text=\"Test String 15\"i",
+        "priority": 1
+      },
+      {
+        "score": 186,
+        "css": "internal:text=\"Test String 15\"s",
+        "priority": 1
+      },
+      {
+        "score": 355.5,
+        "css": "a >> internal:has-text=\"Test String 15\"i",
+        "priority": 1
+      },
+      {
+        "score": 390.5,
+        "css": "a >> internal:has-text=/^Test String 15$/",
+        "priority": 1
+      }
+    ],
+    "no_text": [
+      {
+        "css": "ul > li:nth-child(15) > a"
+      },
+      {
+        "css": ":root > :nth-child(2) > :nth-child(2) > :nth-child(15) > :nth-child(1)"
+      }
+    ],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  },
+  "listitem_https_httpstat_us_200_status_co": {
+    "basic": [
+      {
+        "score": 181,
+        "css": "internal:text=\"https://httpstat.us/200 (\"i",
+        "priority": 1
+      },
+      {
+        "score": 184,
+        "css": "internal:text=\"https://httpstat.us/200 (Status Code: 200)\"i",
+        "priority": 1
+      },
+      {
+        "score": 189,
+        "css": "internal:text=\"https://httpstat.us/200 (Status Code: 200)\"s",
+        "priority": 1
+      },
+      {
+        "score": 355.5,
+        "css": "li >> internal:has-text=\"https://httpstat.us/200 (\"i",
+        "priority": 1
+      },
+      {
+        "score": 357,
+        "css": "li >> internal:has-text=\"https://httpstat.us/200 (Status Code: 200)\"i",
+        "priority": 1
+      },
+      {
+        "score": 392.5,
+        "css": "li >> internal:has-text=/^https:\\/\\/httpstat\\.us\\/200 \\(Status Code: 200\\)$/",
+        "priority": 1
+      }
+    ],
+    "no_text": [
+      {
+        "css": "#api-list > li:nth-child(2)"
+      },
+      {
+        "css": ":root > :nth-child(2) > :nth-child(6) > :nth-child(2)"
+      }
+    ],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "checkbox_option_1": {
+    "basic": [
+      {
+        "score": 121,
+        "css": "internal:label=\"Option 1\"i",
+        "priority": 1
+      },
+      {
+        "score": 126,
+        "css": "internal:label=\"Option 1\"s",
+        "priority": 1
+      },
+      {
+        "score": 142,
+        "css": "internal:role=checkbox[name=\"Option 1\"i]",
+        "priority": 1
+      },
+      {
+        "score": 147,
+        "css": "internal:role=checkbox[name=\"Option 1\"s]",
+        "priority": 1
+      }
+    ],
+    "no_text": [
+      {
+        "css": "#inputForm > div.checkboxes.flex > div:nth-child(1) > input"
+      },
+      {
+        "css": ":root > :nth-child(2) > :nth-child(5) > :nth-child(4) > :nth-child(1) > :nth-child(1)"
+      }
+    ],
+    "ignore_digit": [],
+    "context": [
+      {
+        "text": "Option 1",
+        "css": "input",
+        "climb": 1
+      }
+    ],
+    "strategy": "context"
+  },
+  "checkbox_option_2": {
+    "basic": [
+      {
+        "score": 121,
+        "css": "internal:label=\"Option 2\"i",
+        "priority": 1
+      },
+      {
+        "score": 126,
+        "css": "internal:label=\"Option 2\"s",
+        "priority": 1
+      },
+      {
+        "score": 142,
+        "css": "internal:role=checkbox[name=\"Option 2\"i]",
+        "priority": 1
+      },
+      {
+        "score": 147,
+        "css": "internal:role=checkbox[name=\"Option 2\"s]",
+        "priority": 1
+      }
+    ],
+    "no_text": [
+      {
+        "css": "#inputForm > div.checkboxes.flex > div:nth-child(2) > input"
+      },
+      {
+        "css": ":root > :nth-child(2) > :nth-child(5) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
+      }
+    ],
+    "ignore_digit": [],
+    "context": [
+      {
+        "text": "Option 2",
+        "css": "input",
+        "climb": 1
+      }
+    ],
+    "strategy": "context"
+  },
+  "textbox_you_example_com": {
+    "basic": [
+      {
+        "score": 143,
+        "css": "internal:role=textbox[name=\"you@example.com\"i]",
+        "priority": 1
+      },
+      {
+        "score": 148,
+        "css": "internal:role=textbox[name=\"you@example.com\"s]",
+        "priority": 1
+      }
+    ],
+    "no_text": [],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  }
+}
