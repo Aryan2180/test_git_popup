@@ -1,13 +1,20 @@
 {
+  "shop-blinq": [
+    {
+      "key": "test3",
+      "value": "U2FsdGVkX1+lIlpKCdKjrzwXTXdhGZy0E7Brutqd1Ik=",
+      "DataType": "secret"
+    }
+  ],
   "*": [
     {
       "key": "test2",
-      "value": "U2FsdGVkX18bRzvl+5GViWjlTzkf+nx5xWpNKOS/HEo=",
+      "value": "U2FsdGVkX1+vRevELsEKrVsTHbGv0tH7aD9lSsHIUmQ=",
       "DataType": "secret"
     },
     {
       "key": "test",
-      "value": "U2FsdGVkX1+Wt51foE4c09Cm8qf3UIgajW1HiGTsm8U=",
+      "value": "U2FsdGVkX18aNOxHKO7uoxNs1hjZgzoWa5LDYi90lrA=",
       "DataType": "secret"
     }
   ]
