@@ -1,0 +1,28 @@
+{
+  "button_add_to_cart": {
+    "basic": [
+      {
+        "text": "{mechanical_keyboard_product_name}",
+        "css": "button",
+        "climb": 3
+      }
+    ],
+    "no_text": [],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  },
+  "button_add_to_cart_1": {
+    "basic": [
+      {
+        "text": "{mizu_bottle_product_name}",
+        "css": "button",
+        "climb": 3
+      }
+    ],
+    "no_text": [],
+    "ignore_digit": [],
+    "context": [],
+    "strategy": "basic"
+  }
+}

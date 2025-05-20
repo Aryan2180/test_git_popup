@@ -1,78 +1,45 @@
 {
-  "link_network_console": {
+  "link_form_input_interaction": {
     "basic": [
       {
         "score": 143,
-        "css": "internal:role=link[name=\"Network & Console\"i]",
+        "css": "internal:role=link[name=\"Form & Input Interaction\"i]",
         "priority": 1
       },
       {
         "score": 148,
-        "css": "internal:role=link[name=\"Network & Console\"s]",
+        "css": "internal:role=link[name=\"Form & Input Interaction\"s]",
         "priority": 1
       },
       {
         "score": 182,
-        "css": "internal:text=\"Network & Console\"i",
+        "css": "internal:text=\"Form & Input Interaction\"i",
         "priority": 1
       },
       {
         "score": 187,
-        "css": "internal:text=\"Network & Console\"s",
+        "css": "internal:text=\"Form & Input Interaction\"s",
         "priority": 1
       },
       {
         "score": 356,
-        "css": "a >> internal:has-text=\"Network & Console\"i",
+        "css": "a >> internal:has-text=\"Form & Input Interaction\"i",
         "priority": 1
       },
       {
         "score": 391,
-        "css": "a >> internal:has-text=/^Network & Console$/",
+        "css": "a >> internal:has-text=/^Form & Input Interaction$/",
         "priority": 1
       }
     ],
     "no_text": [
       {
-        "css": "[href='\\/networkAndConsole']"
+        "css": "[href='\\/inputs']"
       },
       {
-        "css": "body > ul:nth-child(5) > li:nth-child(11) > a"
+        "css": "body > ul:nth-child(5) > li:nth-child(1) > a"
       }
     ],
-    "ignore_digit": [],
-    "context": [],
-    "strategy": "basic"
-  },
-  "link_form_input_interaction": {
-    "basic": [
-      {
-        "score": 143,
-        "css": "internal:role=link[name=\"{form_and_input_interaction_text}\"i]",
-        "priority": 1
-      },
-      {
-        "score": 148,
-        "css": "internal:role=link[name=\"{form_and_input_interaction_text}\"s]",
-        "priority": 1
-      },
-      {
-        "score": 182,
-        "css": "internal:text=\"{form_and_input_interaction_text}\"i",
-        "priority": 1
-      },
-      {
-        "score": 187,
-        "css": "internal:text=\"{form_and_input_interaction_text}\"s",
-        "priority": 1
-      },
-      {
-        "score": 356,
-        "css": "a >> internal:has-text=\"{form_and_input_interaction_text}\"i",
-        "priority": 1
-      }
-    ],
-    "no_text": [],
     "ignore_digit": [],
     "context": [],
     "strategy": "basic"
