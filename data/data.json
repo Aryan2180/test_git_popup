@@ -1,8 +1,13 @@
 {
   "*": [
     {
+      "key": "test2",
+      "value": "U2FsdGVkX18bRzvl+5GViWjlTzkf+nx5xWpNKOS/HEo=",
+      "DataType": "secret"
+    },
+    {
       "key": "test",
-      "value": "U2FsdGVkX18+h5LptdLGPTqWjAJMvjHDt/2GeuLt6s0=",
+      "value": "U2FsdGVkX1+Wt51foE4c09Cm8qf3UIgajW1HiGTsm8U=",
       "DataType": "secret"
     }
   ]
