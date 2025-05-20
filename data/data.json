@@ -1,9 +1,9 @@
 {
   "*": [
     {
-      "key": "data",
-      "value": "U",
-      "DataType": "string"
+      "key": "test",
+      "value": "U2FsdGVkX18+h5LptdLGPTqWjAJMvjHDt/2GeuLt6s0=",
+      "DataType": "secret"
     }
   ]
 }
